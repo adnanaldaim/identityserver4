@@ -1,0 +1,74 @@
+﻿@using StudentApp.Object.Pagination;
+@model PaginationResult<StudentApp.Object.DTOs.Course.CourseDto>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Courses List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="row">
+    <div class="col-12">
+        <div class="form-inline pull-right">
+            <label>Search</label>
+            <input id="txtSearch" type="text" class="form-control" />
+        </div>
+    </div>
+    <div id="grdCourses">
+
+    </div>
+</div>
+
+<div>
+    <nav>
+        <ul class="pagination justify-content-center">
+            @for (int i = 1; i <= ViewBag.Pager.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.Pager.CurrentPage == i ? "active" : "")">
+                    <button data-id="@i" class="page-link">@i</button>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
+
+@section scripts{
+    <script>
+
+        $(() => {
+            var currentPage = 1;
+            getCourses(currentPage);
+
+            $(".page-link").on('click', function () {
+                $(".page-link").parent().removeClass('active');
+                $(this).parent().addClass('active');
+                currentPage = $(this).attr("data-id");
+                getCourses(currentPage);
+            });
+
+            $("#txtSearch").on("keyup", () => {
+                getCourses(currentPage);
+            });
+
+        });
+
+        function getCourses(currentPage) {
+            $.ajax({
+                url: '@Url.Action("SearchCourses","Course")',
+                datatype: 'html',
+                method: 'GET',
+                data: { page: currentPage, searchtxt: $("#txtSearch").val() },
+                success: function (res) {
+                    $("#grdCourses").html('').html(res)
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            });
+        }
+
+    </script>
+}

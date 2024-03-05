@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Exams List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="row">
+    <div class="col-12">
+        <div class="form-inline pull-right">
+            <label>Search</label>
+            <input id="txtSearch" type="text" class="form-control" />
+        </div>
+    </div>
+    <div id="grdExams">
+    </div>
+</div>
+
+@section scripts{
+    <script>
+
+        $(() => {
+            getExams();
+
+            $("#txtSearch").on("keyup", () => {
+                getExams();
+            });
+        });
+
+        function getExams() {
+            $.ajax({
+                url: '@Url.Action("SearchExams","Exam")',
+                datatype: 'html',
+                method: 'GET',
+                data: { searchtxt: $("#txtSearch").val() },
+                success: function (res) {
+                    $("#grdExams").html('').html(res)
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            });
+        }
+
+    </script>
+}

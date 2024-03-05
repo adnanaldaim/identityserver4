@@ -1,0 +1,12 @@
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\bin\Debug\net6.0\StudentApp.Object.deps.json
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\bin\Debug\net6.0\StudentApp.Object.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\bin\Debug\net6.0\StudentApp.Object.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\StudentApp.Object.csproj.AssemblyReference.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\StudentApp.Object.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\StudentApp.Object.AssemblyInfoInputs.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\StudentApp.Object.AssemblyInfo.cs
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\StudentApp.Object.csproj.CoreCompileInputs.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\StudentApp.Object.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\refint\StudentApp.Object.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\StudentApp.Object.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Object\obj\Debug\net6.0\ref\StudentApp.Object.dll

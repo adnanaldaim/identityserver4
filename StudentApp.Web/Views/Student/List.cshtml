@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "List";
+}
+<h1>Students List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="row">
+    <div class="col-12">
+        <div class="form-inline pull-right">
+            <label>Search</label>
+            <input id="txtSearch" type="text" class="form-control" />
+        </div>
+    </div>
+    <div id="grdStudents">
+    </div>
+</div>
+<div>
+    <nav>
+        <ul class="pagination justify-content-center">
+            @for (int i = 1; i <= ViewBag.Pager.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.Pager.CurrentPage == i ? "active" : "")">
+                    <button data-id="@i" class="page-link">@i</button>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
+@section scripts{
+    <script>
+        var currentPage = 1;
+        $(() => {
+            getStudents(currentPage);
+
+            $(".page-link").on('click', function () {
+                $(".page-link").parent().removeClass('active');
+                $(this).parent().addClass('active');
+                currentPage = $(this).attr("data-id");
+                getStudents(currentPage);
+            });
+
+            $("#txtSearch").on("keyup", () => {
+                getStudents(currentPage);
+            });
+        });
+
+        function getStudents() {
+            $.ajax({
+                url: '@Url.Action("SearchStudents","Student")',
+                datatype: 'html',
+                method: 'GET',
+                data: { page: currentPage, searchtxt: $("#txtSearch").val() },
+                success: function (res) {
+                    $("#grdStudents").html('').html(res)
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            });
+        }
+
+    </script>
+}

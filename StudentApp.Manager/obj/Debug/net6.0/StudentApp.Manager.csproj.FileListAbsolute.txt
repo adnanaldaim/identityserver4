@@ -1,0 +1,17 @@
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\bin\Debug\net6.0\StudentApp.Manager.deps.json
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\bin\Debug\net6.0\StudentApp.Manager.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\bin\Debug\net6.0\StudentApp.Manager.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\bin\Debug\net6.0\StudentApp.Data.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\bin\Debug\net6.0\StudentApp.Object.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\bin\Debug\net6.0\StudentApp.Data.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\bin\Debug\net6.0\StudentApp.Object.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.csproj.AssemblyReference.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.AssemblyInfoInputs.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.AssemblyInfo.cs
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.csproj.CoreCompileInputs.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.csproj.CopyComplete
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\refint\StudentApp.Manager.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\StudentApp.Manager.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Manager\obj\Debug\net6.0\ref\StudentApp.Manager.dll

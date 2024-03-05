@@ -1,0 +1,17 @@
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\bin\Debug\net6.0\StudentApp.Data.deps.json
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\bin\Debug\net6.0\StudentApp.Data.runtimeconfig.json
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\bin\Debug\net6.0\StudentApp.Data.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\bin\Debug\net6.0\StudentApp.Data.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\bin\Debug\net6.0\StudentApp.Object.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\bin\Debug\net6.0\StudentApp.Object.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.csproj.AssemblyReference.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.AssemblyInfoInputs.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.AssemblyInfo.cs
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.csproj.CoreCompileInputs.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.csproj.CopyComplete
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\refint\StudentApp.Data.dll
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.pdb
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\StudentApp.Data.genruntimeconfig.cache
+D:\ProgramFilesFolder\StudentApp\StudentApp.Data\obj\Debug\net6.0\ref\StudentApp.Data.dll
