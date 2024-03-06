@@ -28,7 +28,11 @@ Now, you have to apply the migration for Student CRUD operation.
  
  to apply migration on the same db.
 
-9- Run the StudentApp.Web and StudentApp.API projects. You can see the following screens:
+9- Verify the DB migrations as following:
+
+![ss4](https://github.com/adnanaldaim/identityserver4/assets/78682361/c324e6d0-efbf-400e-afc5-c06a0106dccb)
+
+10- Run the StudentApp.Web and StudentApp.API projects. You can see the following screens:
 
 StudentApp.Web Application:
 ![ss2](https://github.com/adnanaldaim/identityserver4/assets/78682361/1e912b0c-ec9b-4903-9b03-704cb942ae4f)
