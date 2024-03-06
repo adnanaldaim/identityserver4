@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 var assembly = typeof(Program).Assembly.GetName().Name;
 var defaultConnString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-//SeedData.EnsureSeedData(defaultConnString);
+SeedData.EnsureSeedData(defaultConnString);
 
 builder.Services.AddDbContext<AspNetIdentityDbContext>(options =>
 {
