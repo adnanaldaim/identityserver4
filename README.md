@@ -1,4 +1,4 @@
-I have integrated IdentityServer4 with ASP.NET application and RestFul API. Follow the following steps to inrun the project on you local machine.
+I have integrated IdentityServer4 with ASP.NET application and RestFul API. Follow the following steps to run the project on your local machine.
 
 1- Clone/Download the code.
 
